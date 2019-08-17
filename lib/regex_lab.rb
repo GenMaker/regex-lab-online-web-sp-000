@@ -23,7 +23,7 @@ if text.match(/^[A-Z].*\W$/)
   end
 end
 
-def valid_phone_number?(phone)
+def valid_phone_number?(text)
  if text.match(/\D*(\d\D*){10}/)
    true
  else
